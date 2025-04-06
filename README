@@ -10,6 +10,7 @@ This project is a machine learning-powered application that predicts the **Air Q
 - 🧠 Trained on a dense neural network with TensorFlow (Keras API)
 - 📊 Visualizes AQI trends and city-level pollution distribution
 - 📁 Data source: `city_day.csv` (India pollution dataset)
+✅ Note: Plotly charts are interactive and work perfectly in local environments like Jupyter Notebooks.
 
 ---
 
