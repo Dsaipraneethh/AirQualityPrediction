@@ -1,0 +1,62 @@
+# 🌫️ Air Quality Prediction using TensorFlow
+
+This project is a machine learning-powered application that predicts the **Air Quality Index (AQI)** using environmental pollution data. It leverages **TensorFlow** for deep learning and includes interactive data visualization with **Plotly**.
+
+---
+
+## 📌 Project Summary
+
+- 🚀 Predicts AQI using pollutant data such as **PM2.5**, **PM10**, **NO₂**, **CO**, etc.
+- 🧠 Trained on a dense neural network with TensorFlow (Keras API)
+- 📊 Visualizes AQI trends and city-level pollution distribution
+- 📁 Data source: `city_day.csv` (India pollution dataset)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tools / Libraries                          |
+|--------------|---------------------------------------------|
+| Language     | Python                                     |
+| ML Framework | TensorFlow (Keras), Scikit-learn           |
+| Data Viz     | Plotly, Matplotlib                         |
+| Data Prep    | Pandas, NumPy                              |
+
+---
+
+## 📊 Visualizations
+
+- **AQI Trend Over Time**: Line chart grouped by city
+- **AQI Distribution**: Box plot for comparison across cities
+
+Plotly makes it interactive—you can zoom, hover, and explore the trends dynamically.
+
+---
+
+## 🔍 How It Works
+
+1. Loads and cleans the dataset (drops NaNs, formats dates)
+2. Visualizes AQI trends and city distributions
+3. Selects key pollutants as features
+4. Trains a deep learning model with two hidden layers
+5. Saves the model in `.keras` format
+6. Makes predictions on custom user inputs
+
+📌 Requirements:
+
+Python 3.8+
+TensorFlow
+Pandas
+Scikit-learn
+Plotly
+Matplotlib
+
+⚙️ Future Scope
+
+Deploy as a Flask web app or Streamlit dashboard
+Integrate with live AQI APIs
+Alert system based on thresholds
+City-specific model tuning
+
+👨‍💻 Author
+Made with ❤️ by DUBBA SAI PRANEETH REDDY
